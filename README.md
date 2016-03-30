@@ -34,3 +34,19 @@ Komponen yang menggabungkan semua komponen sebelumnya.
 
 
 ![react-tube components](images/react_tube_components.png)
+
+## Daftar API Youtube
+
+Untuk menggunakan API Youtube, kita harus mendapatkan *API key* dengan mendaftar ke [Google Developers Console](https://console.developers.google.com). Cari bagian *YouTube APIs* dan pilih *YouTube Data API*. Kemudian klik tombol *Enable*.
+
+Di panel sebelah kiri pilih menu *Credentials*. Daftarkan *credential* baru dengan mengklik *Create credentials*, lalu pilih sub menu *API key*, dan klik tombol *Browser key*. Isi seadanya dan tekan tombol *Create*. Catat *Key* yang sudah dibuat.
+
+### HTTP Request Library
+
+Untuk mendapatkan hasil pencarian video, dibutuhkan modul lain untuk memanggil API youtube. Kita menggunakan [axios](https://github.com/mzabriskie/axios). Install,
+
+```
+$ npm i -S axios
+```
+
+Format untuk mengonsumsi search API youtube bisa dibaca di [dokumentasi ini](https://developers.google.com/youtube/v3/docs/search/list#request).
