@@ -24,7 +24,7 @@ class VideoDetail extends Component {
         </div>
 
         <div className="details">
-          <div>{ videoTitle }</div>
+          <div><strong>{ videoTitle }</strong></div>
           <div>{ videoDesc }</div>
         </div>
       </div>
